@@ -31,7 +31,7 @@ writer:
   log_image_views: ${int_list:[ 0, 13, 27, 43, 78 ]}
 
 export_ply:
-  enabled: false
+  enabled: true
   path: ""
 import_ply:
   enabled: false
@@ -39,7 +39,7 @@ import_ply:
   init_global_step: 0
   
 export_usd:
-  enabled: false
+  enabled: true
   path: ""
   apply_normalizing_transform: true
   format: standard  # "nurec" for internal USDVol format, "standard" for USDVol ParticleField3DGaussianSplat
